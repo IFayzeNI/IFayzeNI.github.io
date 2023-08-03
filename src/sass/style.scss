@@ -1,0 +1,21 @@
+* {
+	font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+a {
+	color: #fff;
+	&:hover {
+		color: #fff;
+	}
+}
+
+@import "base/mixins";
+@import "base/variables";
+@import "blocks/buttons";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/benefits";
+@import "media";
