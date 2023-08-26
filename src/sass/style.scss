@@ -2,13 +2,14 @@
 	font-family: 'Museo Sans Cyrl', sans-serif;
 }
 .container {
+	position: relative;
 	max-width: 950px;
 	margin: 0 auto;
 }
 a {
 	color: #fff;
 	&:hover {
-		color: #fff;
+		color: currentColor;
 	}
 }
 
@@ -18,4 +19,12 @@ a {
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/benefits";
+@import "blocks/titles";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/pulsometers";
+@import "blocks/catalog";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modal";
 @import "media";
