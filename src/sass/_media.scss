@@ -200,7 +200,7 @@
 		}
 	}
 	.modal {
-		width: 90%;
+		width: min-content;
 		min-height: 380px;
 		padding: 23px 18px 30px 19px;
 		&__close {
