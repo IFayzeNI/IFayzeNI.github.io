@@ -26,4 +26,10 @@
             color: #ff0000;
         }
     }
+    &__hearth_animated {
+        animation: hearthbeat 1.5s ease infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
 }

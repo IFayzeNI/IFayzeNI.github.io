@@ -48,11 +48,12 @@
         display: flex;
         flex-direction: column;
         width: 300px;
-        min-height: 440px;
+        min-height: 455px;
         border: 2px solid #e8e8e8;
         padding: 20px 20px 26px 20px;
         text-align: center;
         margin-bottom: 20px;
+        line-height: normal;
         &__img {
             display: block;
             max-width: 100%;
@@ -125,8 +126,15 @@
             padding-right: 20px;
             list-style-type: none;
             &_active {
-                display: block;
+                display: flex;
                 margin-left: 0px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
             }
             li {
                 position: relative;
